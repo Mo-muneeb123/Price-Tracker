@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import smtplib
-# import time
+import time
 
 
 URL = 'https://www.nike.com/t/dunk-low-retro-mens-shoes-87q0hf/DD1391-100?nikemt=true&cp=35640345119_search_--x-20429762868---c-----9016911-13095480-00194502876055&gad_source=1&gclid=CjwKCAiA4smsBhAEEiwAO6DEjT_J10xrSTWtqaextMF6iu0ZU3et460gXGhG55Q2a8zE6Ex5FEvdbRoCUkUQAvD_BwE&gclsrc=aw.ds'
@@ -52,9 +52,9 @@ def mailSend():
     print("Email has been sent")
 
     server.quit()
-
-# while(True):
-#   priceCheck()
-#    time.sleep(86400)
+    
+while(True):
+priceCheck()    
+time.sleep(86400)
 
 
