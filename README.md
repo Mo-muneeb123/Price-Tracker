@@ -1,5 +1,14 @@
 # Price-Tracker
-Tracks price of any product. Once price drops below your assigned limit an email gets sent you informing you of the price change.
 
-Tracks only one product at a time. To change product you must change the url for the product in the code along with the soup.find for id and div.
+A simple Python script that tracks the price of a product and sends an email notification when the price drops below a specified amount.
 
+Features:
+- Web scraping using BeautifulSoup
+- Checks real-time product prices
+- Sends email alerts when prices drop
+
+Tech Stack:
+- Python 
+- BeautifulSoup (Web Scraping)
+- Requests (HTTP Requests)
+- smtplib (Email Notifications)
